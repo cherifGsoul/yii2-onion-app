@@ -1,16 +1,13 @@
 {
-    "name": "yiisoft/yii2-app-basic",
-    "description": "Yii 2 Basic Project Template",
-    "keywords": ["yii2", "framework", "basic", "project template"],
+    "name": "yiisoft/yii2-app-onion",
+    "description": "Yii 2 Onion architecture Project Template",
+    "keywords": ["yii2", "framework","onion","hexagonal","layered", "project template"],
     "homepage": "http://www.yiiframework.com/",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+        "issues": "https://github.com/cherifGsoul/yii2-onion-app/issues?state=open",
+        "source": "https://github.com/cherifGsoul/yii2-onion-app"
     },
     "minimum-stability": "dev",
     "require": {
@@ -37,13 +34,13 @@
         "yii\\composer\\Installer::postCreateProject": {
             "setPermission": [
                 {
-                    "runtime": "0777",
+                    "app/runtime": "0777",
                     "web/assets": "0777",
-                    "yii": "0755"
+                    "app/yii": "0755"
                 }
             ],
             "generateCookieValidationKey": [
-                "config/web.php"
+                "app/config/web.php"
             ]
         },
         "asset-installer-paths": {
