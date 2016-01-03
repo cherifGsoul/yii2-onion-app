@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2-app-onion",
+    "name": "cherif/yii2-app-onion",
     "description": "Yii 2 Onion architecture Project Template",
     "keywords": ["yii2", "framework","onion","hexagonal","layered", "project template"],
     "homepage": "http://www.yiiframework.com/",
