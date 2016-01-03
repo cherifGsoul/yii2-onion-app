@@ -9,7 +9,7 @@
         "issues": "https://github.com/cherifGsoul/yii2-onion-app/issues?state=open",
         "source": "https://github.com/cherifGsoul/yii2-onion-app"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.5",
