@@ -1,0 +1,86 @@
+2016-01-03 13:17:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/bouchelaghem/public_html/yii2-onion-template/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/bouchelaghem/public_html/yii2-onion-template/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-03 13:17:38 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'qdk2ett1qve512pjbo0mk0gen7'
+    'cati_ci_session' => 'xk77LXYRVCJU7AJS+KOTSLGAM3X691lQMl4+ekTcE9P/KfHd2hDPuwvRwtVAp9tlICZ2NVDKDAO95v/bEWY3Z0KOc/0VWlpylfMjl/vYeKvZI7U7dFoJ7dny9g/1jtdUNCK8tGRPu0qprCPyEVl947kw6H6WSrkzpR1S1cxCAKzVCcUzHpp1ZkaXgA5ioB/cK2VjmDQV60poCyltX8N0S7TSd0w5QYpVCrVp9QEbLNLVnQ0qfx5Du5TSSBN395dkkSP7oDiB5+4TBaywqsYBV6fgSCFhdyotHg/J1zj8Wq0CCoxFYAMiPVxbAm+BvxrBpZV9ggwU16yEmGZVx8iCIqux9WbxF0NFOzbihyfDsPZscNOdF/Kiq7QEvxluI24r9YFZFqEG2vRCGWsDm7rVZoKzfvG0ZiV7ev4YIC3DozQ='
+    '_csrf' => '9415651ebd759a0afbe1abf9c4da8153cfda8d54c7ae0b44242beae4ec81cab9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"e-lm-0RzsoXxGANNfOTWwhyDvcJdT3cS\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/bouchelaghem/public_html/yii2-onion-template/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60730'
+    'SERVER_SOFTWARE' => 'PHP 5.6.11-1ubuntu3.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/bouchelaghem/public_html/yii2-onion-template/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fr;q=0.6,ar;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=qdk2ett1qve512pjbo0mk0gen7; cati_ci_session=xk77LXYRVCJU7AJS%2BKOTSLGAM3X691lQMl4%2BekTcE9P%2FKfHd2hDPuwvRwtVAp9tlICZ2NVDKDAO95v%2FbEWY3Z0KOc%2F0VWlpylfMjl%2FvYeKvZI7U7dFoJ7dny9g%2F1jtdUNCK8tGRPu0qprCPyEVl947kw6H6WSrkzpR1S1cxCAKzVCcUzHpp1ZkaXgA5ioB%2FcK2VjmDQV60poCyltX8N0S7TSd0w5QYpVCrVp9QEbLNLVnQ0qfx5Du5TSSBN395dkkSP7oDiB5%2B4TBaywqsYBV6fgSCFhdyotHg%2FJ1zj8Wq0CCoxFYAMiPVxbAm%2BBvxrBpZV9ggwU16yEmGZVx8iCIqux9WbxF0NFOzbihyfDsPZscNOdF%2FKiq7QEvxluI24r9YFZFqEG2vRCGWsDm7rVZoKzfvG0ZiV7ev4YIC3DozQ%3D; _csrf=9415651ebd759a0afbe1abf9c4da8153cfda8d54c7ae0b44242beae4ec81cab9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e-lm-0RzsoXxGANNfOTWwhyDvcJdT3cS%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1451827058.7949
+    'REQUEST_TIME' => 1451827058
+]
+2016-01-03 13:21:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/bouchelaghem/public_html/yii2-onion-template/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/bouchelaghem/public_html/yii2-onion-template/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/bouchelaghem/public_html/yii2-onion-template/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-03 13:21:02 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'qdk2ett1qve512pjbo0mk0gen7'
+    'cati_ci_session' => 'xk77LXYRVCJU7AJS+KOTSLGAM3X691lQMl4+ekTcE9P/KfHd2hDPuwvRwtVAp9tlICZ2NVDKDAO95v/bEWY3Z0KOc/0VWlpylfMjl/vYeKvZI7U7dFoJ7dny9g/1jtdUNCK8tGRPu0qprCPyEVl947kw6H6WSrkzpR1S1cxCAKzVCcUzHpp1ZkaXgA5ioB/cK2VjmDQV60poCyltX8N0S7TSd0w5QYpVCrVp9QEbLNLVnQ0qfx5Du5TSSBN395dkkSP7oDiB5+4TBaywqsYBV6fgSCFhdyotHg/J1zj8Wq0CCoxFYAMiPVxbAm+BvxrBpZV9ggwU16yEmGZVx8iCIqux9WbxF0NFOzbihyfDsPZscNOdF/Kiq7QEvxluI24r9YFZFqEG2vRCGWsDm7rVZoKzfvG0ZiV7ev4YIC3DozQ='
+    '_csrf' => '9415651ebd759a0afbe1abf9c4da8153cfda8d54c7ae0b44242beae4ec81cab9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"e-lm-0RzsoXxGANNfOTWwhyDvcJdT3cS\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/bouchelaghem/public_html/yii2-onion-template/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60890'
+    'SERVER_SOFTWARE' => 'PHP 5.6.11-1ubuntu3.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8000'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/bouchelaghem/public_html/yii2-onion-template/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,fr;q=0.6,ar;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=qdk2ett1qve512pjbo0mk0gen7; cati_ci_session=xk77LXYRVCJU7AJS%2BKOTSLGAM3X691lQMl4%2BekTcE9P%2FKfHd2hDPuwvRwtVAp9tlICZ2NVDKDAO95v%2FbEWY3Z0KOc%2F0VWlpylfMjl%2FvYeKvZI7U7dFoJ7dny9g%2F1jtdUNCK8tGRPu0qprCPyEVl947kw6H6WSrkzpR1S1cxCAKzVCcUzHpp1ZkaXgA5ioB%2FcK2VjmDQV60poCyltX8N0S7TSd0w5QYpVCrVp9QEbLNLVnQ0qfx5Du5TSSBN395dkkSP7oDiB5%2B4TBaywqsYBV6fgSCFhdyotHg%2FJ1zj8Wq0CCoxFYAMiPVxbAm%2BBvxrBpZV9ggwU16yEmGZVx8iCIqux9WbxF0NFOzbihyfDsPZscNOdF%2FKiq7QEvxluI24r9YFZFqEG2vRCGWsDm7rVZoKzfvG0ZiV7ev4YIC3DozQ%3D; _csrf=9415651ebd759a0afbe1abf9c4da8153cfda8d54c7ae0b44242beae4ec81cab9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22e-lm-0RzsoXxGANNfOTWwhyDvcJdT3cS%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1451827262.1946
+    'REQUEST_TIME' => 1451827262
+]

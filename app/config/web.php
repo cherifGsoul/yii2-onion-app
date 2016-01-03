@@ -6,10 +6,12 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    //'basePath' => dirname(__DIR__),
+    'vendorPath'=>dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => 'azerty',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',

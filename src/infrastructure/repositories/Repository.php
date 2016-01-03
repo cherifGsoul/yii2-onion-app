@@ -1,10 +1,7 @@
 <?php
 namespace onion\infrastructure;
 
-/**
-*
-*/
-abstratc class Repository extends RepositoryInterface
+abstract class Repository extends RepositoryInterface
 {
 
   public function __construct()
